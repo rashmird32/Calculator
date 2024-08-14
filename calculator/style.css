@@ -1,0 +1,39 @@
+body {
+  background-color: #212122;
+}
+#outerBox {
+  display: grid;
+  place-items: center;
+  height: 600px;
+}
+.grid-container {
+  padding: 20px;
+
+  width: 200px;
+  place-items: center;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+.boxInput {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.gridButton input {
+  width: 50px;
+  padding: 20px;
+  background-color: #52504c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.clearBtn input {
+  background-color: #db6054;
+}
+#result {
+  width: 100%;
+}
